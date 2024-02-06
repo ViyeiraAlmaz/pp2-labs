@@ -1,4 +1,12 @@
 import random
+#2nd ex
+def fahrenheit_to_celsius(fahrenheit):
+    celsius = (5 / 9) * (fahrenheit - 32)
+    return celsius
+fahrenheit = float(input())
+celsius = fahrenheit_to_celsius(fahrenheit)
+print(celsius)
+
 #3rd ex
 def find(numheads, numlegs):
     rab = (numlegs - (2 * numheads))/2
