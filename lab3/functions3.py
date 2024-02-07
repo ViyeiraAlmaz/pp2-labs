@@ -1,13 +1,13 @@
 #1 ex
 class Stringj:
-    def __init__(s):
-        s.input_string = ""
+    def __init__(self):
+        self.input_string = ""
 
-    def getString(s):
-        s.input_string = input()
+    def getString(self):
+        self.input_string = input()
 
-    def printString(s):
-        print(s.input_string.upper())
+    def printString(self):
+        print(self.input_string.upper())
 JJ = Stringj()
 JJ.getString()
 JJ.printString()
